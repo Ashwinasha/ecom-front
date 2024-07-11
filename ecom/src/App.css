@@ -1,0 +1,47 @@
+/* src/App.css */
+.carousel-item {
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card {
+  height: 100%;
+}
+.container.custom-container {
+  max-width: 98%;
+}
+.card-body {
+  height: 100%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.carousel-control-prev-icon svg, .carousel-control-next-icon svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
